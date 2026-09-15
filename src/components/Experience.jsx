@@ -87,6 +87,15 @@ const ROLES = [
       "Students' Scientific Conference (TDK) 3rd place.",
     ],
   },
+  {
+    role: 'Member, Structural Team',
+    org: 'BME Suborbitals Rocket Development Team',
+    period: 'Jan. 2021 — Feb. 2024',
+    bullets: [
+      'Development of experimental rockets for international competitions.',
+      'European Rocketry Challenge: 9th place (2022).',
+    ],
+  },
 ];
 
 export function Experience() {

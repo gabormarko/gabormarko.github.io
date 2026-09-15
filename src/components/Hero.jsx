@@ -5,7 +5,7 @@ import { Reveal } from './Reveal';
 const SOCIALS = [
   { href: 'https://github.com/gabormarko', label: 'GitHub', icon: GithubIcon },
   { href: 'https://linkedin.com/in/your-handle', label: 'LinkedIn', icon: LinkedinIcon },
-  { href: 'mailto:you@example.com', label: 'Email', icon: Mail },
+  { href: 'mailto:gabor.marko@tum.de', label: 'Email', icon: Mail },
 ];
 
 export function Hero() {

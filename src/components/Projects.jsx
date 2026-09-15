@@ -5,6 +5,15 @@ import { Section } from './Section';
 
 const PROJECTS = [
   {
+    title: 'Data and Learning Where it Matters for Contact-Rich Manipulation',
+    description:
+      'Combines reinforcement learning with motion planning by restricting expensive data collection to the contact-rich segments of a task and relying on traditional planning elsewhere. 96% average success across four real-world manipulation tasks with just 2–2.5 hours of autonomous data per task. Paper submitted to CoRL.',
+    tags: ['Reinforcement Learning', 'Motion Planning', 'Robot Manipulation'],
+    repo: null,
+    demo: 'https://learnsyslab.github.io/data_and_learning_where_it_matters/',
+    demoLabel: 'Project Page',
+  },
+  {
     title: 'Open-Vocabulary Semantic Novel View Synthesis with 3D Gaussians',
     description:
       'End-to-end pipeline for open-vocabulary semantic novel view synthesis, built on 3D Gaussian Splatting. TUM Visual Computing & AI Lab semester project.',
@@ -73,7 +82,7 @@ export function Projects() {
                     rel="noreferrer"
                     className="inline-flex items-center gap-1 text-sm text-slate-600 hover:text-indigo-500 dark:text-slate-400 dark:hover:text-indigo-400"
                   >
-                    <ArrowUpRight size={15} /> Demo
+                    <ArrowUpRight size={15} /> {project.demoLabel ?? 'Demo'}
                   </a>
                 )}
               </div>

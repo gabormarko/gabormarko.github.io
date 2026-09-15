@@ -18,7 +18,7 @@ export function Hero() {
         <img
           src="/photo.jpg"
           alt="Portrait of Gábor Markó"
-          className="mx-auto mb-6 h-36 w-36 rounded-full object-cover ring-4 ring-slate-100 dark:ring-slate-800"
+          className="mx-auto mb-6 h-76 w-76 rounded-full object-cover ring-4 ring-slate-100 dark:ring-slate-800"
         />
       </Reveal>
       <Reveal delay={40}>

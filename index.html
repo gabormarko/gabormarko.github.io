@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Your Name | Your Title</title>
+    <meta
+      name="description"
+      content="Your Name is a [your title] building [what you build]. Replace this in index.html."
+    />
+    <meta name="author" content="Your Name" />
+    <meta name="robots" content="index, follow, max-image-preview:large" />
+    <link rel="canonical" href="https://gabormarko.github.io/" />
+
+    <meta property="og:site_name" content="Your Name" />
+    <meta property="og:title" content="Your Name | Your Title" />
+    <meta property="og:description" content="Replace this description in index.html." />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://gabormarko.github.io/" />
+
+    <!-- Theme flash prevention: set the dark/light class before React mounts -->
+    <script>
+      (function () {
+        var stored = localStorage.getItem('theme');
+        var prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+        if (stored === 'dark' || (!stored && prefersDark)) {
+          document.documentElement.classList.add('dark');
+        }
+      })();
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>

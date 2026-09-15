@@ -1,0 +1,16 @@
+@import "tailwindcss";
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  @apply bg-white text-slate-700 dark:bg-slate-950 dark:text-slate-300;
+  font-family: system-ui, "Segoe UI", Roboto, sans-serif;
+}
+
+::selection {
+  @apply bg-indigo-500/30;
+}

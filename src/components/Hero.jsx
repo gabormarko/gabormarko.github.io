@@ -12,7 +12,7 @@ export function Hero() {
   return (
     <section
       id="hero"
-      className="relative flex min-h-screen flex-col items-center justify-center px-6 text-center"
+      className="relative flex min-h-[100svh] flex-col items-center justify-center px-6 pt-20 text-center"
     >
       <div className="hero-glow pointer-events-none absolute inset-0" aria-hidden="true" />
 
@@ -20,7 +20,7 @@ export function Hero() {
         <img
           src="/photo.jpg"
           alt="Portrait of Gábor Markó"
-          className="glow-pulse mx-auto mb-6 h-76 w-76 rounded-full object-cover ring-4 ring-slate-100 dark:ring-slate-800"
+          className="glow-pulse mx-auto mb-6 h-32 w-32 rounded-full object-cover ring-4 ring-slate-100 sm:h-48 sm:w-48 md:h-76 md:w-76 dark:ring-slate-800"
         />
       </Reveal>
       <Reveal delay={40}>

@@ -15,6 +15,13 @@ export function Hero() {
       className="relative flex min-h-screen flex-col items-center justify-center px-6 text-center"
     >
       <Reveal>
+        <img
+          src="/photo.jpg"
+          alt="Portrait of Gábor Markó"
+          className="mx-auto mb-6 h-36 w-36 rounded-full object-cover ring-4 ring-slate-100 dark:ring-slate-800"
+        />
+      </Reveal>
+      <Reveal delay={40}>
         <p className="mb-4 text-sm font-medium tracking-wide text-indigo-500 dark:text-indigo-400">
           Hi, I'm
         </p>

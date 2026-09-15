@@ -1,4 +1,4 @@
-import { ArrowUpRight } from 'lucide-react';
+import { ArrowUpRight, FileText } from 'lucide-react';
 import { GithubIcon } from './BrandIcons';
 import { Reveal } from './Reveal';
 import { Section } from './Section';
@@ -20,6 +20,7 @@ const PROJECTS = [
     repo: null,
     demo: 'https://learnsyslab.github.io/data_and_learning_where_it_matters/',
     demoLabel: 'Project Page',
+    paper: 'https://learnsyslab.github.io/data_and_learning_where_it_matters/paper.pdf',
   },
   {
     title: 'Open-Vocabulary Semantic Novel View Synthesis with 3D Gaussians',
@@ -91,6 +92,16 @@ export function Projects() {
                     className="inline-flex items-center gap-1 text-sm text-slate-600 hover:text-indigo-500 dark:text-slate-400 dark:hover:text-indigo-400"
                   >
                     <ArrowUpRight size={15} /> {project.demoLabel ?? 'Demo'}
+                  </a>
+                )}
+                {project.paper && (
+                  <a
+                    href={project.paper}
+                    target="_blank"
+                    rel="noreferrer"
+                    className="inline-flex items-center gap-1 text-sm text-slate-600 hover:text-indigo-500 dark:text-slate-400 dark:hover:text-indigo-400"
+                  >
+                    <FileText size={15} /> Paper
                   </a>
                 )}
               </div>

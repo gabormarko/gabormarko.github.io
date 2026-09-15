@@ -5,20 +5,30 @@ import { Section } from './Section';
 
 const PROJECTS = [
   {
-    title: 'Project One',
+    title: 'Open-Vocabulary Semantic Novel View Synthesis with 3D Gaussians',
     description:
-      'One or two sentences describing what this project does and why it exists.',
-    tags: ['Tag', 'Tag'],
+      'End-to-end pipeline for open-vocabulary semantic novel view synthesis, built on 3D Gaussian Splatting. TUM Visual Computing & AI Lab semester project.',
+    tags: ['3D Gaussians', 'Computer Vision', 'Semantic Segmentation'],
+    // TODO: swap in the actual repo link
     repo: 'https://github.com/gabormarko',
     demo: null,
   },
   {
-    title: 'Project Two',
+    title: 'Learning-Based Rigid Tube Model Predictive Control',
     description:
-      'Placeholder description — edit in src/components/Projects.jsx.',
-    tags: ['Tag', 'Tag', 'Tag'],
+      'Learning-based rigid tube MPC for motion planning on EDGAR, TUM’s autonomous research vehicle. Cyber Physical Systems Group semester project.',
+    tags: ['MPC', 'Autonomous Driving', 'Motion Planning'],
+    // TODO: swap in the actual repo link
     repo: 'https://github.com/gabormarko',
-    demo: '#',
+    demo: null,
+  },
+  {
+    title: 'Imitation Learning for Robot Policies at KI-Fabrik',
+    description:
+      'Trained learning-based robot manipulation policies with imitation learning during a hackathon-style project week for the Advanced Robot Learning and Decision-Making course.',
+    tags: ['Imitation Learning', 'Robot Policies'],
+    repo: null,
+    demo: null,
   },
 ];
 

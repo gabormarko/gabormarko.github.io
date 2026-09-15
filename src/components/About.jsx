@@ -2,12 +2,14 @@ import { Reveal } from './Reveal';
 import { Section } from './Section';
 
 const SKILLS = [
-  'Skill One',
-  'Skill Two',
-  'Skill Three',
-  'Skill Four',
-  'Skill Five',
-  'Skill Six',
+  'Python',
+  'PyTorch',
+  'ROS',
+  'MATLAB/Simulink',
+  'C++',
+  'Docker',
+  'Git',
+  'LaTeX',
 ];
 
 export function About() {
@@ -15,14 +17,16 @@ export function About() {
     <Section id="about" eyebrow="About" title="A bit about me">
       <Reveal>
         <p className="text-base leading-relaxed text-slate-600 dark:text-slate-400">
-          Placeholder bio — replace in{' '}
-          <code className="rounded bg-slate-100 px-1.5 py-0.5 text-sm dark:bg-slate-800">
-            src/components/About.jsx
-          </code>
-          . Write two or three sentences about your background, what you
-          work on, and what motivates you. Mention your current role,
-          field of interest, and anything that gives visitors a sense of
-          who you are beyond a resume.
+          I'm an M.Sc. student in Robotics, Cognition, Intelligence at the
+          Technical University of Munich (TUM), currently doing guided
+          research on combining deep reinforcement learning and motion
+          planning on real robot hardware — with a paper submitted to the
+          Conference on Robot Learning (CoRL). Before TUM, I completed a
+          B.Sc. in Mechatronics Engineering and an M.Sc. in Mechanical
+          Engineering Modelling at BME Budapest with highest honours,
+          including a semester abroad at KIT Karlsruhe. I'm interested in
+          robot learning, motion planning, computer vision, and autonomous
+          driving.
         </p>
       </Reveal>
 

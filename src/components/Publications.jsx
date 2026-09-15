@@ -4,48 +4,54 @@ import { Section } from './Section';
 
 const PUBLICATIONS = [
   {
-    title: 'Placeholder Paper Title Goes Here',
-    venue: 'Conference / Journal Name',
+    title:
+      'Combining Deep Reinforcement Learning and Motion Planning on Real Robot Hardware',
+    venue: 'Conference on Robot Learning (CoRL) — submitted',
     year: '2026',
-    href: '#',
+    href: null,
   },
   {
-    title: 'Another Placeholder Publication Title',
-    venue: 'Workshop / Journal Name',
-    year: '2025',
-    href: '#',
+    title: 'Time Delay Compensation in Vehicle Motion Control Using MPC',
+    venue: "Bachelor's Thesis, BME — TDK 3rd place",
+    year: '2024',
+    href: null,
   },
 ];
 
 export function Publications() {
   return (
-    <Section id="publications" eyebrow="Publications" title="Papers & writing">
+    <Section id="publications" eyebrow="Research" title="Papers & writing">
       <ul className="space-y-6">
-        {PUBLICATIONS.map((pub, i) => (
-          <Reveal key={pub.title} delay={i * 80}>
-            <li>
-              <a
-                href={pub.href}
-                target="_blank"
-                rel="noreferrer"
-                className="group flex items-start justify-between gap-4 rounded-lg border border-slate-200 p-4 transition-colors hover:border-indigo-400 dark:border-slate-800 dark:hover:border-indigo-500"
-              >
-                <div>
-                  <h3 className="text-sm font-medium text-slate-900 dark:text-white">
-                    {pub.title}
-                  </h3>
-                  <p className="mt-1 text-sm text-slate-500 dark:text-slate-500">
-                    {pub.venue} · {pub.year}
-                  </p>
-                </div>
-                <ArrowUpRight
-                  size={18}
-                  className="mt-0.5 shrink-0 text-slate-400 transition-transform group-hover:-translate-y-0.5 group-hover:translate-x-0.5 group-hover:text-indigo-500"
-                />
-              </a>
-            </li>
-          </Reveal>
-        ))}
+        {PUBLICATIONS.map((pub, i) => {
+          const Tag = pub.href ? 'a' : 'div';
+          return (
+            <Reveal key={pub.title} delay={i * 80}>
+              <li>
+                <Tag
+                  {...(pub.href
+                    ? { href: pub.href, target: '_blank', rel: 'noreferrer' }
+                    : {})}
+                  className="group flex items-start justify-between gap-4 rounded-lg border border-slate-200 p-4 transition-colors hover:border-indigo-400 dark:border-slate-800 dark:hover:border-indigo-500"
+                >
+                  <div>
+                    <h3 className="text-sm font-medium text-slate-900 dark:text-white">
+                      {pub.title}
+                    </h3>
+                    <p className="mt-1 text-sm text-slate-500 dark:text-slate-500">
+                      {pub.venue} · {pub.year}
+                    </p>
+                  </div>
+                  {pub.href && (
+                    <ArrowUpRight
+                      size={18}
+                      className="mt-0.5 shrink-0 text-slate-400 transition-transform group-hover:-translate-y-0.5 group-hover:translate-x-0.5 group-hover:text-indigo-500"
+                    />
+                  )}
+                </Tag>
+              </li>
+            </Reveal>
+          );
+        })}
       </ul>
     </Section>
   );

@@ -5,7 +5,7 @@ import { useTheme } from '../hooks/useTheme';
 const LINKS = [
   { href: '#about', label: 'About' },
   { href: '#experience', label: 'Experience' },
-  { href: '#publications', label: 'Publications' },
+  { href: '#publications', label: 'Research' },
   { href: '#projects', label: 'Projects' },
   { href: '#contact', label: 'Contact' },
 ];
@@ -21,7 +21,7 @@ export function Navbar() {
           href="#hero"
           className="text-sm font-semibold tracking-tight text-slate-900 dark:text-white"
         >
-          Your Name
+          Gábor Markó
         </a>
 
         <div className="hidden items-center gap-8 sm:flex">

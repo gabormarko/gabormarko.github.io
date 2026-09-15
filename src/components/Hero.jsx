@@ -4,7 +4,7 @@ import { Reveal } from './Reveal';
 
 const SOCIALS = [
   { href: 'https://github.com/gabormarko', label: 'GitHub', icon: GithubIcon },
-  { href: 'https://linkedin.com/in/your-handle', label: 'LinkedIn', icon: LinkedinIcon },
+  { href: 'https://www.linkedin.com/in/gabor-marko1/', label: 'LinkedIn', icon: LinkedinIcon },
   { href: 'mailto:gabor.marko@tum.de', label: 'Email', icon: Mail },
 ];
 
@@ -21,21 +21,19 @@ export function Hero() {
       </Reveal>
       <Reveal delay={80}>
         <h1 className="text-4xl font-semibold tracking-tight text-slate-900 sm:text-6xl dark:text-white">
-          Your Name
+          Gábor Markó
         </h1>
       </Reveal>
       <Reveal delay={160}>
         <p className="mt-4 text-lg text-slate-600 sm:text-xl dark:text-slate-400">
-          Your Title — replace in{' '}
-          <code className="rounded bg-slate-100 px-1.5 py-0.5 text-base dark:bg-slate-800">
-            src/components/Hero.jsx
-          </code>
+          M.Sc. Student in Robotics, Cognition & Intelligence @ TUM
         </p>
       </Reveal>
       <Reveal delay={240}>
         <p className="mx-auto mt-6 max-w-xl text-base text-slate-500 dark:text-slate-500">
-          A one- or two-sentence tagline about what you build and what you're
-          curious about goes here.
+          Researching how to combine deep reinforcement learning and motion
+          planning on real robot hardware, with a background in control
+          engineering and mechatronics.
         </p>
       </Reveal>
       <Reveal delay={320}>

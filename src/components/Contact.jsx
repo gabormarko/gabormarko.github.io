@@ -4,9 +4,13 @@ import { Reveal } from './Reveal';
 import { Section } from './Section';
 
 const SOCIALS = [
-  { href: 'mailto:you@example.com', label: 'Email', icon: Mail },
+  { href: 'mailto:gabor.marko@tum.de', label: 'Email', icon: Mail },
   { href: 'https://github.com/gabormarko', label: 'GitHub', icon: GithubIcon },
-  { href: 'https://linkedin.com/in/your-handle', label: 'LinkedIn', icon: LinkedinIcon },
+  {
+    href: 'https://www.linkedin.com/in/gabor-marko1/',
+    label: 'LinkedIn',
+    icon: LinkedinIcon,
+  },
 ];
 
 export function Contact() {
@@ -14,12 +18,9 @@ export function Contact() {
     <Section id="contact" eyebrow="Contact" title="Get in touch">
       <Reveal>
         <p className="text-base text-slate-600 dark:text-slate-400">
-          Placeholder — replace in{' '}
-          <code className="rounded bg-slate-100 px-1.5 py-0.5 text-sm dark:bg-slate-800">
-            src/components/Contact.jsx
-          </code>
-          . Say what you're open to: opportunities, collaborations,
-          questions, or just saying hello.
+          Open to research collaborations, robotics and machine learning
+          opportunities, or just a conversation about robot learning and
+          motion planning — feel free to reach out.
         </p>
       </Reveal>
       <Reveal delay={100} className="mt-6 flex gap-4">

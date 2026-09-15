@@ -5,6 +5,14 @@ import { Section } from './Section';
 
 const PROJECTS = [
   {
+    title: 'Sim-and-Real Co-Training for Robust Manipulation Policies',
+    description:
+      "Master's thesis developing sim-and-real co-training methods to improve the robustness of learned robot manipulation policies. TUM Learning Systems and Robotics Lab.",
+    tags: ['Reinforcement Learning', 'Sim-to-Real', 'Robot Manipulation'],
+    repo: null,
+    demo: null,
+  },
+  {
     title: 'Data and Learning Where it Matters for Contact-Rich Manipulation',
     description:
       'Combines reinforcement learning with motion planning by restricting expensive data collection to the contact-rich segments of a task and relying on traditional planning elsewhere. 96% average success across four real-world manipulation tasks with just 2–2.5 hours of autonomous data per task. Paper submitted to CoRL.',

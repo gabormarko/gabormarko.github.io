@@ -13,12 +13,13 @@ const ROLES = [
   {
     role: 'Research Intern, Guided Research',
     org: 'TUM Learning Systems and Robotics Lab',
-    period: 'Mar. 2026 — present',
+    period: 'Mar. 2026 — Jun. 2026',
     bullets: [
       'Combining deep reinforcement learning and motion planning on real robot hardware; paper submitted to the Conference on Robot Learning (CoRL).',
       'Teaching assistant for the Advanced Robot Learning and Decision-Making course (Jun. 2026 — present).',
     ],
   },
+  /*
   {
     role: 'Hackathon-Style Project Week',
     org: 'TUM Learning Systems and Robotics Lab',
@@ -27,6 +28,8 @@ const ROLES = [
       'Trained learning-based robot manipulation policies using imitation learning at KI-Fabrik.',
     ],
   },
+  */
+  /*
   {
     role: 'Semester Project, Advanced Deep Learning for Computer Vision',
     org: 'TUM Visual Computing & Artificial Intelligence Lab',
@@ -36,6 +39,8 @@ const ROLES = [
       'Exam correction tutor for Introduction to Deep Learning (Jul. 2025 — present).',
     ],
   },
+  */
+ /*
   {
     role: 'Semester Project, Motion Planning for EDGAR',
     org: 'TUM Cyber Physical Systems Group',
@@ -44,6 +49,7 @@ const ROLES = [
       'Developed a learning-based rigid tube model predictive controller for the autonomous research vehicle EDGAR.',
     ],
   },
+  */
   {
     role: 'Developer, UAV Control Engineer',
     org: 'HUN-REN SZTAKI',

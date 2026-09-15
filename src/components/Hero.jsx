@@ -14,11 +14,13 @@ export function Hero() {
       id="hero"
       className="relative flex min-h-screen flex-col items-center justify-center px-6 text-center"
     >
+      <div className="hero-glow pointer-events-none absolute inset-0" aria-hidden="true" />
+
       <Reveal>
         <img
           src="/photo.jpg"
           alt="Portrait of Gábor Markó"
-          className="mx-auto mb-6 h-76 w-76 rounded-full object-cover ring-4 ring-slate-100 dark:ring-slate-800"
+          className="glow-pulse mx-auto mb-6 h-76 w-76 rounded-full object-cover ring-4 ring-slate-100 dark:ring-slate-800"
         />
       </Reveal>
       <Reveal delay={40}>
@@ -27,7 +29,7 @@ export function Hero() {
         </p>
       </Reveal>
       <Reveal delay={80}>
-        <h1 className="text-4xl font-semibold tracking-tight text-slate-900 sm:text-6xl dark:text-white">
+        <h1 className="gradient-text text-4xl font-semibold tracking-tight sm:text-6xl">
           Gábor Markó
         </h1>
       </Reveal>

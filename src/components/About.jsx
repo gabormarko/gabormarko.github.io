@@ -1,17 +1,6 @@
 import { Reveal } from './Reveal';
 import { Section } from './Section';
 
-const SKILLS = [
-  'Python',
-  'PyTorch',
-  'ROS',
-  'MATLAB/Simulink',
-  'C++',
-  'Docker',
-  'Git',
-  'LaTeX',
-];
-
 export function About() {
   return (
     <Section id="about" eyebrow="About" title="A bit about me">
@@ -27,19 +16,6 @@ export function About() {
           robot learning, motion planning, computer vision, and autonomous
           driving.
         </p>
-      </Reveal>
-
-      <Reveal delay={100} className="mt-8">
-        <div className="flex flex-wrap gap-2">
-          {SKILLS.map((skill) => (
-            <span
-              key={skill}
-              className="rounded-full border border-slate-200 px-3 py-1 text-sm text-slate-600 dark:border-slate-800 dark:text-slate-400"
-            >
-              {skill}
-            </span>
-          ))}
-        </div>
       </Reveal>
     </Section>
   );

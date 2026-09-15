@@ -3,6 +3,14 @@ import { Section } from './Section';
 
 const ROLES = [
   {
+    role: "Master's Thesis: Sim-and-Real Co-Training for Robust Manipulation Policies",
+    org: 'TUM Learning Systems and Robotics Lab',
+    period: 'Jun. 2026 — present',
+    bullets: [
+      'Developing sim-and-real co-training methods to improve the robustness of learned robot manipulation policies.',
+    ],
+  },
+  {
     role: 'Research Intern, Guided Research',
     org: 'TUM Learning Systems and Robotics Lab',
     period: 'Mar. 2026 — present',

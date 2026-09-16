@@ -11,10 +11,10 @@ const PUBLICATIONS = [
     href: 'https://learnsyslab.github.io/data_and_learning_where_it_matters/paper.pdf',
   },
   {
-    title: 'Time Delay Compensation in Vehicle Motion Control Using MPC',
+    title: 'Vehicle motion control of autonomous vehicles using model predictive control',
     venue: "Students' Scientific Conference (TDK) — 3rd place",
     year: '2024',
-    href: null,
+    href: '/projects/vehicle-motion-control-TDK-GaborFerencMarko.pdf',
   },
   {
     title: 'An Analysis of Geometric Extremum Problems Using GeoGebra',

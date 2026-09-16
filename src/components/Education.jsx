@@ -11,12 +11,12 @@ const EDUCATION = [
       'DAAD Scholarship for Master Studies; CommonRoad Prize Challenge, 13th place.',
     ],
   },
-  {
+  /*{
     role: 'M.Sc., Mechanical Engineering Modelling (Solid & Fluid Mechanics)',
     org: 'Budapest University of Technology and Economics (BME)',
     period: 'Feb. 2024 — Oct. 2024',
     bullets: [],
-  },
+  },*/
   {
     role: 'B.Sc., Mechatronics Engineering',
     org: 'Budapest University of Technology and Economics (BME)',

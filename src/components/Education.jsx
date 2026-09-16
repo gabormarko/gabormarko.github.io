@@ -41,6 +41,7 @@ const EDUCATION = [
   {
     role: 'Advanced Group in Mathematics, Physics & Informatics',
     org: 'Révai Miklós Secondary Grammar School',
+    logo: '/logos/revai.png',
     period: 'Sep. 2014 — Jul. 2020',
     bullets: [
       'Excellent graduation certificate (498/500 points); national mathematics and physics competitions, top 30.',

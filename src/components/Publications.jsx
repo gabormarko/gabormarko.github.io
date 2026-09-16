@@ -5,10 +5,10 @@ import { Section } from './Section';
 const PUBLICATIONS = [
   {
     title:
-      'Combining Deep Reinforcement Learning and Motion Planning on Real Robot Hardware',
+      'Data and Learning Where It Matters for Contact-Rich Manipulation',
     venue: 'Conference on Robot Learning (CoRL) — submitted',
     year: '2026',
-    href: null,
+    href: 'https://learnsyslab.github.io/data_and_learning_where_it_matters/paper.pdf',
   },
   {
     title: 'Time Delay Compensation in Vehicle Motion Control Using MPC',

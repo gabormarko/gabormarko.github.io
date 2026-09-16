@@ -75,7 +75,7 @@ const PROJECTS = [
     demo: null,
     // Drop a file at public/projects/time-delay-mpc-poster.<ext>, then set below
     poster: null,
-    videos: [],
+    videos: ['/projects/iso-3888-2-lane-change-test.mp4'],
   },
 ];
 

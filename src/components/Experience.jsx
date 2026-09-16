@@ -69,7 +69,7 @@ const ROLES = [
   */
   {
     role: 'Developer, UAV Control Engineer',
-    org: 'HUN-REN SZTAKI',
+    org: 'HUN-REN SZTAKI (Hungarian Research Institute for Computer Science and Control) ',
     logo: '/logos/sztaki.png',
     period: 'Apr. 2024 — Sep. 2024',
     bullets: [

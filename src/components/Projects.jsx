@@ -89,12 +89,12 @@ const PROJECTS = [
   },
   {
     title: 'Linear Algebra — Interactive Animations',
-    description: 'Interactive GeoGebra animations built as university course material for linear algebra.',
+    description: 'Interactive GeoGebra animations built as university course material for Linear Algebra.',
     tags: ['GeoGebra', 'Linear Algebra', 'Teaching'],
     repo: null,
     demo: 'https://www.geogebra.org/m/encn3az9',
     demoLabel: 'GeoGebra',
-    poster: '/projects/linalg.png',
+    poster: '/projects/linalg2.png',
     videos: [],
   },
 ];

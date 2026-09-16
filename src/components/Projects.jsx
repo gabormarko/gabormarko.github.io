@@ -34,9 +34,8 @@ const PROJECTS = [
     tags: ['Imitation Learning', 'Robot Policies'],
     repo: null,
     demo: null,
-    // Drop files at public/projects/imitation-learning-ki-fabrik-poster.png / -demo.mp4, then set below
     poster: null,
-    videos: [],
+    videos: ['/projects/imitation-learning-ki-fabrik-demo.mp4'],
   },
   {
     title: 'Open-Vocabulary Semantic Novel View Synthesis with 3D Gaussians',

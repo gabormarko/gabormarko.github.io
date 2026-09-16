@@ -107,7 +107,11 @@ export function Projects() {
                       <video
                         key={src}
                         controls
-                        preload="none"
+                        autoPlay
+                        muted
+                        loop
+                        playsInline
+                        preload="metadata"
                         poster={idx === 0 ? (project.poster ?? undefined) : undefined}
                         className="aspect-video w-full rounded-md border border-slate-200 bg-slate-100 dark:border-slate-800 dark:bg-slate-900"
                       >

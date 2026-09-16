@@ -98,6 +98,16 @@ const PROJECTS = [
     poster: '/projects/polygon.png',
     videos: [],
   },
+  {
+    title: 'BME Suborbitals Rocket Development Team',
+    description:
+      'Structural team member developing experimental rockets for international competitions. European Rocketry Challenge: 9th place (2022).',
+    tags: ['Aerospace', 'Structures', 'Rocketry'],
+    repo: null,
+    demo: null,
+    poster: '/projects/suborbitals.webp',
+    videos: [],
+  },
 ];
 
 export function Projects() {

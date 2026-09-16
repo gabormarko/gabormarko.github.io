@@ -77,6 +77,16 @@ const PROJECTS = [
     videos: ['/projects/iso-3888-2-lane-change-test.mp4'],
   },
   {
+    title: 'Linear Algebra — Interactive Animations',
+    description: 'Interactive GeoGebra animations built as university course material for Linear Algebra.',
+    tags: ['GeoGebra', 'Linear Algebra', 'Teaching'],
+    repo: null,
+    demo: 'https://www.geogebra.org/m/encn3az9',
+    demoLabel: 'GeoGebra',
+    poster: '/projects/linalg2.png',
+    videos: [],
+  },
+  {
     title: 'An Analysis of Geometric Extremum Problems Using GeoGebra',
     description:
       'Investigated extremum problems in geometry, using GeoGebra to construct and visualize the underlying geometric relationships. Published in Polygon.',
@@ -85,16 +95,6 @@ const PROJECTS = [
     demo: null,
     paper: 'https://www.math.u-szeged.hu/polygonlap/p298.pdf',
     poster: '/projects/polygon.png',
-    videos: [],
-  },
-  {
-    title: 'Linear Algebra — Interactive Animations',
-    description: 'Interactive GeoGebra animations built as university course material for Linear Algebra.',
-    tags: ['GeoGebra', 'Linear Algebra', 'Teaching'],
-    repo: null,
-    demo: 'https://www.geogebra.org/m/encn3az9',
-    demoLabel: 'GeoGebra',
-    poster: '/projects/linalg2.png',
     videos: [],
   },
 ];

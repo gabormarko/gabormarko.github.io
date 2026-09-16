@@ -61,6 +61,22 @@ const PROJECTS = [
     poster: '/projects/rigid-tube-mpc-poster.jpg',
     videos: [],
   },
+  {
+    title: 'Time Delay Compensation in Vehicle Motion Control Using MPC',
+    description: 'Working on vehicle motion control algorithm development for ADAS.',
+    bullets: [
+      'Construction of a complex vehicle dynamics model.',
+      'Designed a model predictive controller (MPC) for lateral and longitudinal control of the vehicle.',
+      'Compensation of the time delay appearing in the control loop.',
+      'Testing controller performance and effects of time delay in CarMaker simulation environment.',
+    ],
+    tags: ['MPC', 'Vehicle Dynamics', 'ADAS', 'CarMaker'],
+    repo: null,
+    demo: null,
+    // Drop a file at public/projects/time-delay-mpc-poster.<ext>, then set below
+    poster: null,
+    videos: [],
+  },
 ];
 
 export function Projects() {
@@ -76,6 +92,15 @@ export function Projects() {
               <p className="mt-2 text-sm text-slate-600 dark:text-slate-400">
                 {project.description}
               </p>
+              {project.bullets && (
+                <ul className="mt-2 list-disc space-y-1 pl-4">
+                  {project.bullets.map((bullet) => (
+                    <li key={bullet} className="text-sm text-slate-600 dark:text-slate-400">
+                      {bullet}
+                    </li>
+                  ))}
+                </ul>
+              )}
               {(project.poster || project.videos.length > 0) && (
                 <div className="mt-4 space-y-3">
                   {project.videos.length > 0 ? (

@@ -10,6 +10,7 @@ const EDUCATION = [
     bullets: [
       'Advanced coursework in control engineering, robotics, computer vision, and machine learning.',
       'DAAD Scholarship for Master Studies; CommonRoad Prize Challenge, 13th place.',
+      'GPA: 1.5, top 6% of the peer group.',
     ],
   },
   /*{

@@ -57,7 +57,7 @@ const PROJECTS = [
     // TODO: swap in the actual repo link
     repo: 'https://github.com/gabormarko/learning-based-mpc',
     demo: null,
-    // Drop files at public/projects/rigid-tube-mpc-poster.png / -demo.mp4, then set below
+    posterPdf: '/projects/Gabor_Marko_Poster_practicalCourse_MPFAV_final.pdf',
     poster: null,
     videos: [],
   },
@@ -138,6 +138,16 @@ export function Projects() {
                     className="inline-flex items-center gap-1 text-sm text-slate-600 hover:text-indigo-500 dark:text-slate-400 dark:hover:text-indigo-400"
                   >
                     <FileText size={15} /> Paper
+                  </a>
+                )}
+                {project.posterPdf && (
+                  <a
+                    href={project.posterPdf}
+                    target="_blank"
+                    rel="noreferrer"
+                    className="inline-flex items-center gap-1 text-sm text-slate-600 hover:text-indigo-500 dark:text-slate-400 dark:hover:text-indigo-400"
+                  >
+                    <FileText size={15} /> Poster
                   </a>
                 )}
               </div>

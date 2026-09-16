@@ -11,6 +11,9 @@ const PROJECTS = [
     tags: ['Reinforcement Learning', 'Sim-to-Real', 'Robot Manipulation'],
     repo: null,
     demo: null,
+    // Drop files at public/projects/sim-real-cotraining-poster.png / -demo.mp4, then set below
+    poster: null,
+    video: null,
   },
   {
     title: 'Data and Learning Where it Matters for Contact-Rich Manipulation',
@@ -21,6 +24,20 @@ const PROJECTS = [
     demo: 'https://learnsyslab.github.io/data_and_learning_where_it_matters/',
     demoLabel: 'Project Page',
     paper: 'https://learnsyslab.github.io/data_and_learning_where_it_matters/paper.pdf',
+    // Drop files at public/projects/data-learning-where-it-matters-poster.png / -demo.mp4, then set below
+    poster: null,
+    video: null,
+  },
+    {
+    title: 'Imitation Learning for Robot Policies at KI-Fabrik',
+    description:
+      'Trained learning-based robot manipulation policies with imitation learning during a hackathon-style project week for the Advanced Robot Learning and Decision-Making course.',
+    tags: ['Imitation Learning', 'Robot Policies'],
+    repo: null,
+    demo: null,
+    // Drop files at public/projects/imitation-learning-ki-fabrik-poster.png / -demo.mp4, then set below
+    poster: null,
+    video: null,
   },
   {
     title: 'Open-Vocabulary Semantic Novel View Synthesis with 3D Gaussians',
@@ -28,8 +45,11 @@ const PROJECTS = [
       'End-to-end pipeline for open-vocabulary semantic novel view synthesis, built on 3D Gaussian Splatting. TUM Visual Computing & AI Lab semester project.',
     tags: ['3D Gaussians', 'Computer Vision', 'Semantic Segmentation'],
     // TODO: swap in the actual repo link
-    repo: 'https://github.com/gabormarko',
+    repo: 'https://github.com/gabormarko/3D-semantic-segmentation',
     demo: null,
+    // Drop files at public/projects/open-vocab-nvs-3dgs-poster.png / -demo.mp4, then set below
+    poster: null,
+    video: null,
   },
   {
     title: 'Learning-Based Rigid Tube Model Predictive Control',
@@ -37,16 +57,11 @@ const PROJECTS = [
       'Learning-based rigid tube MPC for motion planning on EDGAR, TUM’s autonomous research vehicle. Cyber Physical Systems Group semester project.',
     tags: ['MPC', 'Autonomous Driving', 'Motion Planning'],
     // TODO: swap in the actual repo link
-    repo: 'https://github.com/gabormarko',
+    repo: 'https://github.com/gabormarko/learning-based-mpc',
     demo: null,
-  },
-  {
-    title: 'Imitation Learning for Robot Policies at KI-Fabrik',
-    description:
-      'Trained learning-based robot manipulation policies with imitation learning during a hackathon-style project week for the Advanced Robot Learning and Decision-Making course.',
-    tags: ['Imitation Learning', 'Robot Policies'],
-    repo: null,
-    demo: null,
+    // Drop files at public/projects/rigid-tube-mpc-poster.png / -demo.mp4, then set below
+    poster: null,
+    video: null,
   },
 ];
 
@@ -60,10 +75,30 @@ export function Projects() {
               <h3 className="text-base font-semibold text-slate-900 dark:text-white">
                 {project.title}
               </h3>
-              <p className="mt-2 flex-1 text-sm text-slate-600 dark:text-slate-400">
+              <p className="mt-2 text-sm text-slate-600 dark:text-slate-400">
                 {project.description}
               </p>
-              <div className="mt-4 flex flex-wrap gap-2">
+              {(project.poster || project.video) && (
+                <div className="mt-4 overflow-hidden rounded-md border border-slate-200 dark:border-slate-800">
+                  {project.video ? (
+                    <video
+                      controls
+                      preload="none"
+                      poster={project.poster ?? undefined}
+                      className="aspect-video w-full bg-slate-100 dark:bg-slate-900"
+                    >
+                      <source src={project.video} type="video/mp4" />
+                    </video>
+                  ) : (
+                    <img
+                      src={project.poster}
+                      alt={`${project.title} preview`}
+                      className="aspect-video w-full object-cover"
+                    />
+                  )}
+                </div>
+              )}
+              <div className="mt-4 flex flex-1 flex-wrap gap-2">
                 {project.tags.map((tag) => (
                   <span
                     key={tag}

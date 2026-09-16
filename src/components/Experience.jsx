@@ -14,14 +14,14 @@ const ROLES = [
   {
     role: 'Teaching Assistant, Advanced Robot Learning and Decision-Making',
     org: 'TUM Learning Systems and Robotics Lab',
-    logo: '/logos/tum.svg',
+    logo: '/logos/lsy.png',
     period: 'Jun. 2026 — present',
     bullets: ['Teaching assistant for the Advanced Robot Learning and Decision-Making course.'],
   },
   {
     role: 'Research Intern, Guided Research',
     org: 'TUM Learning Systems and Robotics Lab',
-    logo: '/logos/tum.svg',
+    logo: '/logos/lsy.png',
     period: 'Mar. 2026 — Jun. 2026',
     bullets: [
       'Combining deep reinforcement learning and motion planning on real robot hardware; paper submitted to the Conference on Robot Learning (CoRL).',
@@ -30,7 +30,7 @@ const ROLES = [
   {
     role: 'Teaching Assistant, Introduction to Deep Learning',
     org: 'TUM Visual Computing & Artificial Intelligence Lab',
-    logo: '/logos/tum.svg',
+    logo: '/logos/viscomp_lab.png',
     period: 'Jul. 2025 — present',
     bullets: ['Exam correction tutor for the Introduction to Deep Learning course.'],
   },
@@ -89,7 +89,7 @@ const ROLES = [
   {
     role: 'Bachelor\'s Thesis',
     org: 'BME, Department of Applied Mechanics',
-    logo: '/logos/bme.png',
+    logo: '/logos/bme.jpg',
     period: 'Sep. 2023 — Jan. 2024',
     bullets: [
       'Time delay compensation in vehicle motion control using model predictive control.',

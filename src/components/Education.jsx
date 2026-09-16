@@ -15,14 +15,14 @@ const EDUCATION = [
   /*{
     role: 'M.Sc., Mechanical Engineering Modelling (Solid & Fluid Mechanics)',
     org: 'Budapest University of Technology and Economics (BME)',
-    logo: '/logos/bme.png',
+    logo: '/logos/bme.jpg',
     period: 'Feb. 2024 — Oct. 2024',
     bullets: [],
   },*/
   {
     role: 'B.Sc., Mechatronics Engineering',
     org: 'Budapest University of Technology and Economics (BME)',
-    logo: '/logos/bme.png',
+    logo: '/logos/bme.jpg',
     period: 'Sep. 2020 — Jan. 2024',
     bullets: [
       'Graduated with highest honours, diploma average 4.95/5.0; ranked in the top 5% of the peer group (GPA 4.84/5.0).',

@@ -13,6 +13,15 @@ const EDUCATION = [
       'GPA: 1.5, top 6% of the peer group.',
     ],
   },
+  {
+    role: 'Erasmus Exchange Semester',
+    org: 'Karlsruhe Institute of Technology (KIT)',
+    logo: '/logos/kit.svg',
+    period: 'Oct. 2022 — Mar. 2023',
+    bullets: [
+      'German-language engineering education program, partnership between BME and KIT; 5th semester at KIT.',
+    ],
+  },
   /*{
     role: 'M.Sc., Mechanical Engineering Modelling (Solid & Fluid Mechanics)',
     org: 'Budapest University of Technology and Economics (BME)',
@@ -28,15 +37,6 @@ const EDUCATION = [
     bullets: [
       'Graduated with highest honours, diploma average 4.95/5.0; ranked in the top 5% of the peer group (GPA 4.84/5.0).',
       "National Scholarship of Higher Education (top 0.8% of all university students, 2021–22 & 2022–23); Students' Scientific Conference (TDK) 3rd place (2023).",
-    ],
-  },
-  {
-    role: 'Erasmus Exchange Semester',
-    org: 'Karlsruhe Institute of Technology (KIT)',
-    logo: '/logos/kit.svg',
-    period: 'Oct. 2022 — Mar. 2023',
-    bullets: [
-      'German-language engineering education program, partnership between BME and KIT; 5th semester at KIT.',
     ],
   },
   {

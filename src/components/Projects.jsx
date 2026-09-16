@@ -123,7 +123,7 @@ export function Projects() {
                   )}
                 </div>
               )}
-              <div className="mt-4 flex flex-1 flex-wrap gap-2">
+              <div className="mt-4 flex flex-wrap gap-2">
                 {project.tags.map((tag) => (
                   <span
                     key={tag}

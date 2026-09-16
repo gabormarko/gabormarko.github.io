@@ -58,7 +58,7 @@ const PROJECTS = [
     repo: 'https://github.com/gabormarko/learning-based-mpc',
     demo: null,
     posterPdf: '/projects/Gabor_Marko_Poster_practicalCourse_MPFAV_final.pdf',
-    poster: null,
+    poster: '/projects/rigid-tube-mpc-poster.jpg',
     videos: [],
   },
 ];
@@ -94,7 +94,7 @@ export function Projects() {
                     <img
                       src={project.poster}
                       alt={`${project.title} preview`}
-                      className="aspect-video w-full rounded-md border border-slate-200 object-cover dark:border-slate-800"
+                      className="max-h-[420px] w-full rounded-md border border-slate-200 bg-slate-100 object-contain dark:border-slate-800 dark:bg-slate-900"
                     />
                   )}
                 </div>

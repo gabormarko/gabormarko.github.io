@@ -1,5 +1,6 @@
 import { About } from './components/About';
 import { Contact } from './components/Contact';
+import { Education } from './components/Education';
 import { Experience } from './components/Experience';
 import { Footer } from './components/Footer';
 import { Hero } from './components/Hero';
@@ -20,6 +21,7 @@ function App() {
         <About />
         <Projects />
         <Experience />
+        <Education />
         <Publications />
         <Skills />
         <Contact />

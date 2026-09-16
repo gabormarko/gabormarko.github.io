@@ -77,6 +77,16 @@ const PROJECTS = [
     videos: ['/projects/iso-3888-2-lane-change-test.mp4'],
   },
   {
+    title: 'BME Suborbitals Rocket Development Team',
+    description:
+      'Structural team member developing experimental rockets for international competitions. European Rocketry Challenge: 9th place (2022).',
+    tags: ['Aerospace', 'Structures', 'Rocketry'],
+    repo: null,
+    demo: null,
+    poster: '/projects/suborbitals.webp',
+    videos: [],
+  },
+  {
     title: 'Linear Algebra — Interactive Animations',
     description: 'Interactive GeoGebra animations built as university course material for Linear Algebra.',
     tags: ['GeoGebra', 'Linear Algebra', 'Teaching'],
@@ -96,16 +106,6 @@ const PROJECTS = [
     demoLabel: 'Animations',
     paper: 'https://www.math.u-szeged.hu/polygonlap/p298.pdf',
     poster: '/projects/polygon.png',
-    videos: [],
-  },
-  {
-    title: 'BME Suborbitals Rocket Development Team',
-    description:
-      'Structural team member developing experimental rockets for international competitions. European Rocketry Challenge: 9th place (2022).',
-    tags: ['Aerospace', 'Structures', 'Rocketry'],
-    repo: null,
-    demo: null,
-    poster: '/projects/suborbitals.webp',
     videos: [],
   },
 ];

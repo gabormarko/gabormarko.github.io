@@ -18,7 +18,7 @@ const PUBLICATIONS = [
   },
   {
     title: 'An Analysis of Geometric Extremum Problems Using GeoGebra',
-    venue: 'Polygon 25 No. 2, 22–34 (ISSN: HU ISSN 1215-3044)',
+    venue: 'Polygon journal 25 No. 2, 22–34 (ISSN: HU ISSN 1215-3044)',
     year: '2019',
     href: 'https://www.math.u-szeged.hu/polygonlap/p298.pdf',
   },

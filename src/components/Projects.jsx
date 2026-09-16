@@ -76,6 +76,17 @@ const PROJECTS = [
     poster: null,
     videos: ['/projects/iso-3888-2-lane-change-test.mp4'],
   },
+  {
+    title: 'An Analysis of Geometric Extremum Problems Using GeoGebra',
+    description:
+      'Investigated extremum problems in geometry, using GeoGebra to construct and visualize the underlying geometric relationships. Published in Polygon.',
+    tags: ['GeoGebra', 'Geometry', 'Mathematics'],
+    repo: null,
+    demo: null,
+    paper: 'https://www.math.u-szeged.hu/polygonlap/p298.pdf',
+    poster: '/projects/polygon.png',
+    videos: [],
+  },
 ];
 
 export function Projects() {

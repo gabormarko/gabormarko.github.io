@@ -12,7 +12,7 @@ const PUBLICATIONS = [
   },
   {
     title: 'Time Delay Compensation in Vehicle Motion Control Using MPC',
-    venue: "Bachelor's Thesis, BME — TDK 3rd place",
+    venue: "Students' Scientific Conference (TDK) — 3rd place",
     year: '2024',
     href: null,
   },

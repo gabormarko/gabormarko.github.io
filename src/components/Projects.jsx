@@ -87,6 +87,16 @@ const PROJECTS = [
     poster: '/projects/polygon.png',
     videos: [],
   },
+  {
+    title: 'Linear Algebra — Interactive Animations',
+    description: 'Interactive GeoGebra animations built as university course material for linear algebra.',
+    tags: ['GeoGebra', 'Linear Algebra', 'Teaching'],
+    repo: null,
+    demo: 'https://www.geogebra.org/m/encn3az9',
+    demoLabel: 'GeoGebra',
+    poster: '/projects/linalg.png',
+    videos: [],
+  },
 ];
 
 export function Projects() {

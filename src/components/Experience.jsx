@@ -14,14 +14,14 @@ const ROLES = [
   {
     role: 'Teaching Assistant, Advanced Robot Learning and Decision-Making',
     org: 'TUM Learning Systems and Robotics Lab',
-    logo: '/logos/lsy.png',
+    logo: '/logos/lsy2.jpg',
     period: 'Jun. 2026 — present',
     bullets: ['Teaching assistant for the Advanced Robot Learning and Decision-Making course.'],
   },
   {
     role: 'Research Intern, Guided Research',
     org: 'TUM Learning Systems and Robotics Lab',
-    logo: '/logos/lsy.png',
+    logo: '/logos/lsy2.jpg',
     period: 'Mar. 2026 — Jun. 2026',
     bullets: [
       'Combining deep reinforcement learning and motion planning on real robot hardware; paper submitted to the Conference on Robot Learning (CoRL).',
@@ -30,7 +30,7 @@ const ROLES = [
   {
     role: 'Teaching Assistant, Introduction to Deep Learning',
     org: 'TUM Visual Computing & Artificial Intelligence Lab',
-    logo: '/logos/viscomp_lab.png',
+    logo: '/logos/viscomp_lab.svg',
     period: 'Jul. 2025 — present',
     bullets: ['Exam correction tutor for the Introduction to Deep Learning course.'],
   },

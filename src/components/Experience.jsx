@@ -97,6 +97,15 @@ const ROLES = [
     ],
   },
   {
+    role: 'Teaching Assistant',
+    org: 'BME Institute of Mathematics & BME Department of Applied Mechanics',
+    logo: '/logos/bme.jpg',
+    period: 'Feb. 2022 — Jul. 2023',
+    bullets: [
+      'Creating interactive educational materials in Mathematics; editing an exercise book in Strength of Materials.',
+    ],
+  },
+  {
     role: 'Structural Team Engineer',
     org: 'BME Suborbitals Rocket Development Team',
     logo: '/logos/bme-suborbitals.png',

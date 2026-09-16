@@ -5,6 +5,7 @@ const EDUCATION = [
   {
     role: 'M.Sc., Robotics, Cognition, Intelligence',
     org: 'Technical University of Munich (TUM)',
+    logo: '/logos/tum.svg',
     period: 'Oct. 2024 — present',
     bullets: [
       'Advanced coursework in control engineering, robotics, computer vision, and machine learning.',
@@ -14,12 +15,14 @@ const EDUCATION = [
   /*{
     role: 'M.Sc., Mechanical Engineering Modelling (Solid & Fluid Mechanics)',
     org: 'Budapest University of Technology and Economics (BME)',
+    logo: '/logos/bme.png',
     period: 'Feb. 2024 — Oct. 2024',
     bullets: [],
   },*/
   {
     role: 'B.Sc., Mechatronics Engineering',
     org: 'Budapest University of Technology and Economics (BME)',
+    logo: '/logos/bme.png',
     period: 'Sep. 2020 — Jan. 2024',
     bullets: [
       'Graduated with highest honours, diploma average 4.95/5.0; ranked in the top 5% of the peer group (GPA 4.84/5.0).',
@@ -29,6 +32,7 @@ const EDUCATION = [
   {
     role: 'Erasmus Exchange Semester',
     org: 'Karlsruhe Institute of Technology (KIT)',
+    logo: '/logos/kit.svg',
     period: 'Oct. 2022 — Mar. 2023',
     bullets: [
       'German-language engineering education program, partnership between BME and KIT; 5th semester at KIT.',

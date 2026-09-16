@@ -13,7 +13,7 @@ const PROJECTS = [
     demo: null,
     // Drop files at public/projects/sim-real-cotraining-poster.png / -demo.mp4, then set below
     poster: null,
-    video: null,
+    videos: [],
   },
   {
     title: 'Data and Learning Where it Matters for Contact-Rich Manipulation',
@@ -24,9 +24,8 @@ const PROJECTS = [
     demo: 'https://learnsyslab.github.io/data_and_learning_where_it_matters/',
     demoLabel: 'Project Page',
     paper: 'https://learnsyslab.github.io/data_and_learning_where_it_matters/paper.pdf',
-    // Drop files at public/projects/data-learning-where-it-matters-poster.png / -demo.mp4, then set below
     poster: null,
-    video: null,
+    videos: ['/projects/data_and_learning_final.mp4', '/projects/long_horizon_task.mp4'],
   },
     {
     title: 'Imitation Learning for Robot Policies at KI-Fabrik',
@@ -37,7 +36,7 @@ const PROJECTS = [
     demo: null,
     // Drop files at public/projects/imitation-learning-ki-fabrik-poster.png / -demo.mp4, then set below
     poster: null,
-    video: null,
+    videos: [],
   },
   {
     title: 'Open-Vocabulary Semantic Novel View Synthesis with 3D Gaussians',
@@ -47,9 +46,8 @@ const PROJECTS = [
     // TODO: swap in the actual repo link
     repo: 'https://github.com/gabormarko/3D-semantic-segmentation',
     demo: null,
-    // Drop files at public/projects/open-vocab-nvs-3dgs-poster.png / -demo.mp4, then set below
-    poster: null,
-    video: null,
+    poster: '/projects/ADL4CV_SemSegm_Poster_FINAL.png',
+    videos: [],
   },
   {
     title: 'Learning-Based Rigid Tube Model Predictive Control',
@@ -61,7 +59,7 @@ const PROJECTS = [
     demo: null,
     // Drop files at public/projects/rigid-tube-mpc-poster.png / -demo.mp4, then set below
     poster: null,
-    video: null,
+    videos: [],
   },
 ];
 
@@ -78,22 +76,25 @@ export function Projects() {
               <p className="mt-2 text-sm text-slate-600 dark:text-slate-400">
                 {project.description}
               </p>
-              {(project.poster || project.video) && (
-                <div className="mt-4 overflow-hidden rounded-md border border-slate-200 dark:border-slate-800">
-                  {project.video ? (
-                    <video
-                      controls
-                      preload="none"
-                      poster={project.poster ?? undefined}
-                      className="aspect-video w-full bg-slate-100 dark:bg-slate-900"
-                    >
-                      <source src={project.video} type="video/mp4" />
-                    </video>
+              {(project.poster || project.videos.length > 0) && (
+                <div className="mt-4 space-y-3">
+                  {project.videos.length > 0 ? (
+                    project.videos.map((src, idx) => (
+                      <video
+                        key={src}
+                        controls
+                        preload="none"
+                        poster={idx === 0 ? (project.poster ?? undefined) : undefined}
+                        className="aspect-video w-full rounded-md border border-slate-200 bg-slate-100 dark:border-slate-800 dark:bg-slate-900"
+                      >
+                        <source src={src} type="video/mp4" />
+                      </video>
+                    ))
                   ) : (
                     <img
                       src={project.poster}
                       alt={`${project.title} preview`}
-                      className="aspect-video w-full object-cover"
+                      className="aspect-video w-full rounded-md border border-slate-200 object-cover dark:border-slate-800"
                     />
                   )}
                 </div>

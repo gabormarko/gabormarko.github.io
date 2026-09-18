@@ -39,8 +39,8 @@ export function Hero() {
         </p>
       </Reveal>
       <Reveal delay={200}>
-        <p className="mt-3 text-sm text-indigo-500 italic dark:text-indigo-400">
-          Relentlessly converging on the best local optima.
+        <p className="mx-auto mt-4 max-w-md font-serif text-lg text-indigo-500 italic sm:text-xl dark:text-indigo-400">
+          &ldquo;Relentlessly converging on the best local optima.&rdquo;
         </p>
       </Reveal>
       <Reveal delay={240}>

@@ -38,6 +38,11 @@ export function Hero() {
           M.Sc. Student in Robotics, Cognition & Intelligence @ TUM
         </p>
       </Reveal>
+      <Reveal delay={200}>
+        <p className="mt-3 text-sm text-indigo-500 italic dark:text-indigo-400">
+          Relentlessly converging on the best local optima.
+        </p>
+      </Reveal>
       <Reveal delay={240}>
         <p className="mx-auto mt-6 max-w-xl text-base text-slate-500 dark:text-slate-500">
           Researching how to combine deep reinforcement learning and motion

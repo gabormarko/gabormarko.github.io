@@ -39,15 +39,15 @@ export function Hero() {
         </p>
       </Reveal>
       <Reveal delay={200}>
-        <p className="mx-auto mt-4 max-w-md font-serif text-lg text-indigo-500 italic sm:text-xl dark:text-indigo-400">
-          &ldquo;Relentlessly converging on the best local optima.&rdquo;
-        </p>
-      </Reveal>
-      <Reveal delay={240}>
         <p className="mx-auto mt-6 max-w-xl text-base text-slate-500 dark:text-slate-500">
           Researching how to combine deep reinforcement learning and motion
           planning on real robot hardware, with a background in control
           engineering and mechatronics.
+        </p>
+      </Reveal>
+      <Reveal delay={240}>
+        <p className="mx-auto mt-4 max-w-md font-serif text-lg text-indigo-500 italic sm:text-xl dark:text-indigo-400">
+          &ldquo;Relentlessly converging on the best local optima.&rdquo;
         </p>
       </Reveal>
       <Reveal delay={320}>

@@ -7,7 +7,7 @@ const PROJECTS = [
   {
     title: 'Sim-and-Real Co-Training for Robust Manipulation Policies',
     description:
-      "Master's thesis developing sim-and-real co-training methods to improve the robustness of learned robot manipulation policies. TUM Learning Systems and Robotics Lab. Coming soon...",
+      "Master's thesis developing sim-and-real co-training methods to improve the robustness of learned robot manipulation policies. TUM Learning Systems and Robotics Lab.\nComing soon...",
     tags: ['Reinforcement Learning', 'Sim-to-Real', 'Robot Manipulation'],
     repo: null,
     demo: null,
@@ -119,7 +119,7 @@ export function Projects() {
               <h3 className="text-base font-semibold text-slate-900 dark:text-white">
                 {project.title}
               </h3>
-              <p className="mt-2 text-sm text-slate-600 dark:text-slate-400">
+              <p className="mt-2 text-sm whitespace-pre-line text-slate-600 dark:text-slate-400">
                 {project.description}
               </p>
               {project.bullets && (

@@ -7,12 +7,11 @@ const PROJECTS = [
   {
     title: 'Sim-and-Real Co-Training for Robust Manipulation Policies',
     description:
-      "Master's thesis developing sim-and-real co-training methods to improve the robustness of learned robot manipulation policies. TUM Learning Systems and Robotics Lab.",
+      "Master's thesis developing sim-and-real co-training methods to improve the robustness of learned robot manipulation policies. TUM Learning Systems and Robotics Lab. Coming soon...",
     tags: ['Reinforcement Learning', 'Sim-to-Real', 'Robot Manipulation'],
     repo: null,
     demo: null,
-    // Drop files at public/projects/sim-real-cotraining-poster.png / -demo.mp4, then set below
-    poster: null,
+    poster: '/projects/thesis_setup.jpg',
     videos: [],
   },
   {

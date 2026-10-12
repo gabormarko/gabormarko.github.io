@@ -1,6 +1,6 @@
 export function Section({ id, eyebrow, title, children, className = '' }) {
   return (
-    <section id={id} className={`scroll-mt-24 py-20 sm:py-28 ${className}`}>
+    <section id={id} className={`scroll-mt-24 py-12 sm:py-16 ${className}`}>
       <div className="mx-auto max-w-3xl px-6">
         {(eyebrow || title) && (
           <div className="mb-12">

@@ -86,6 +86,17 @@ const PROJECTS = [
     videos: [],
   },
   {
+    title: "Rubik's Cube Solver",
+    description:
+      "Solver algorithm and custom hardware for an automated Rubik's cube solver: computer-vision-based cube state recognition, solver algorithm implementation, Arduino microcontroller programming and motor control, CAD modelling, and 3D printing.",
+    tags: ['Computer Vision', 'Arduino', 'CAD', '3D Printing'],
+    repo: null,
+    demo: null,
+    // Drop a file at public/projects/rubiks-cube-poster.<ext>, then set below
+    poster: null,
+    videos: [],
+  },
+  {
     title: 'Linear Algebra — Interactive Animations',
     description: 'Interactive GeoGebra animations built as university course material for Linear Algebra.',
     tags: ['GeoGebra', 'Linear Algebra', 'Teaching'],

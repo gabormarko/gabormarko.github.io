@@ -154,7 +154,7 @@ export function Projects() {
                         playsInline
                         preload="metadata"
                         poster={idx === 0 ? (project.poster ?? undefined) : undefined}
-                        className="aspect-video w-full rounded-md border border-slate-200 bg-slate-100 dark:border-slate-800 dark:bg-slate-900"
+                        className="w-full rounded-md border border-slate-200 bg-slate-100 dark:border-slate-800 dark:bg-slate-900"
                       >
                         <source src={src} type="video/mp4" />
                       </video>
@@ -163,7 +163,7 @@ export function Projects() {
                     <img
                       src={project.poster}
                       alt={`${project.title} preview`}
-                      className="max-h-[420px] w-full rounded-md border border-slate-200 bg-slate-100 object-contain dark:border-slate-800 dark:bg-slate-900"
+                      className="w-full rounded-md border border-slate-200 bg-slate-100 dark:border-slate-800 dark:bg-slate-900"
                     />
                   )}
                 </div>

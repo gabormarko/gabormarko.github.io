@@ -24,7 +24,7 @@ const ROLES = [
     logo: '/logos/lsy2.png',
     period: 'Mar. 2026 — Jun. 2026',
     bullets: [
-      'Combining deep reinforcement learning and motion planning on real robot hardware; paper submitted to the Conference on Robot Learning (CoRL).',
+      'Combining deep reinforcement learning and motion planning on real robot hardware; paper submitted to IEEE Robotics and Automation Letters (RA-L).',
     ],
   },
   {

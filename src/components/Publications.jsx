@@ -6,7 +6,7 @@ const PUBLICATIONS = [
   {
     title:
       'Data and Learning Where It Matters for Contact-Rich Manipulation',
-    venue: 'Conference on Robot Learning (CoRL) — submitted',
+    venue: 'IEEE Robotics and Automation Letters (RA-L) — submitted',
     year: '2026',
     href: 'https://learnsyslab.github.io/data_and_learning_where_it_matters/paper.pdf',
   },

@@ -92,8 +92,7 @@ const PROJECTS = [
     tags: ['Computer Vision', 'Arduino', 'CAD', '3D Printing'],
     repo: null,
     demo: null,
-    // Drop a file at public/projects/rubiks-cube-poster.<ext>, then set below
-    poster: null,
+    poster: '/projects/rubik_overview.jpg',
     videos: [],
   },
   {

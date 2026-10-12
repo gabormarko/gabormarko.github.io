@@ -35,7 +35,7 @@ export function Hero() {
       </Reveal>
       <Reveal delay={160}>
         <p className="mt-4 text-lg text-slate-600 sm:text-xl dark:text-slate-400">
-          M.Sc. Student in Robotics, Cognition & Intelligence @ TUM
+          Learning Systems and Robotics Lab, RCI Master @ TUM
         </p>
       </Reveal>
       <Reveal delay={200}>
